@@ -24,13 +24,15 @@ public class ArtistConsolReader {
         Artist artist = new Artist();
         artist.setName(scanner.nextLine());
 
+        suggestionOut.println("Enter Name: ");
+        artist.setAbout(scanner.nextLine());
+
         suggestionOut.println("Enter Manager: ");
         Manager manager = new Manager();
         manager.setName(scanner.nextLine());
         artist.setManager(manager);
 
         return artist;
-
 
 
     }
