@@ -24,7 +24,7 @@ public class ArtistConsolReader {
         Artist artist = new Artist();
         artist.setName(scanner.nextLine());
 
-        suggestionOut.println("Enter Name: ");
+        suggestionOut.println("Enter information about: ");
         artist.setAbout(scanner.nextLine());
 
         suggestionOut.println("Enter Manager: ");
